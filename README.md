@@ -54,7 +54,14 @@ You can also build for all platforms with:
 
     $ grunt nodewkbuild --platforms=all
 
-## Errors building:
+## Error building:
+
+$ grunt nodewkbuild
+Running "nodewebkit:src" (nodewebkit) task
+Downloading: https://s3.amazonaws.com/node-webkit/v0.9.2/node-webkit-v0.9.2-osx-ia32.zip
+Unzipping: /Users/wladimir/Projects/popcorn-app/build/cache/mac/0.9.2/node-webkit-v0.9.2-osx-ia32.zip
+Fatal error: ZIP end of central directory record signature invalid (expects 0x06054b50, actually 0x6d783f3c)
+
 
     $ npm install grunt-node-webkit-builder && grunt nodewkbuild
 
