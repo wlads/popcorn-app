@@ -54,6 +54,10 @@ You can also build for all platforms with:
 
     $ grunt nodewkbuild --platforms=all
 
+## Errors building:
+
+    $ npm install grunt-node-webkit-builder && grunt nodewkbuild
+
 ## Any problem?
 
 ### Regarding superagent dependency
